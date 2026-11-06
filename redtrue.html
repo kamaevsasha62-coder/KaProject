@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <h2>Обратная связь</h2>
+    <form class="contact-form" id="contact-form" action="">
+        <label for="Услуги">Тема</label><br>
+    <select name="Услуги" id="Услуги" required>
+        <option value="" disabled selected>Заказать услугу</option>
+        <option value="1">Оставить отзыв/замечание</option>
+        <option value="2">Предложить сотруднечество</option>
+        <option value="3">Другое</option>
+    </select><br>
+    <label for="Имя">Имя</label><br>
+        <input type="text" id="Имя" name="Имя" required placeholder="Введите ваше имя..."><br>
+    <label for="Email">E-mail</label><br>
+        <input type="email" id="Email" name="Email" required placeholder="Введите вашу электронную почту..."><br>
+        <label for="Текст">Текст сообщения</label><br>
+    <textarea name="Текст" id="Текст" rows="5" cols="20" required placeholder="Напишите что-нибудь..."></textarea><br>
+    <input type="checkbox" id="checkbox" required>
+    <label for="checkbox">Согласие с политикой конфиденциальности</label><br>
+    <label for="date">Сегодняшнее число</label><br>
+    <input type="date" id="date" required><br>
+    <label for="tel">Ваш номер телефона</label><br>
+    <input type="tel" id="tel" required><br>
+    <input type="submit" value="ОТПРАВИТЬ"><br>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rubik-broken-fax-regular {
+  font-family: "Rubik Broken Fax", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alumni-sans-collegiate-one-regular {
+  font-family: "Alumni Sans Collegiate One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+    color: white;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
+q{
+    color: white;
+    font-size: 1.3rem;
+}
+
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: double;
+    text-transform: lowercase;
+    font-weight: 100;
+}
+
+header{
+    background-color: black;
+    padding: 30px 20px;
+    border-color: white;
+    border: 30px;
+    border-radius: 30px;
+}
+
+main{
+    background-color: white;
+    padding: 30px 20px;
+}
+
+footer{
+    background-color: black;
+    padding: 30px 20px;
+}
+
+ol{
+    background-color: black;
+    padding-left: 30px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+
+a {
+    color: grey;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid gray;
+}
+
+td, th {
+    border: 2px solid black;
+}
+
+tr:nth-child(even){
+    background-color:#8642da;
+}
+th:first-child{
+    width: 40%;
+}
+tr:last-child{
+    text-align: right;
+}
+
+nav a:visited{
+    color: blueviolet;
+}
+
+nav a:hover {
+    color:yellow;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+nav a:focus{
+    color:green;
+    transform: scale(1.2);
+}
+
+#info ol a:hover{
+    color:yellow;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+#info ol a:focus{
+    color:green;
+    transform: scale(1.2);
+}
+
+nav a:active{
+    color: red;
+}
+
+nav a {
+    color: aquamarine;
+    text-decoration: none;
+    display: inline-block;
+    transition: 2.5s;
+}
+
+#info ul:nth-child(2n){
+    background-color: aqua;
+}
+
+#info ul:last-child::after{
+    content:"Важно!";
+    font-size: 12px;
+    margin-left: 10px;
+    color: brown;
+}
+
+h2::before{
+    content:"damn";
+    font-size: 12px;
+    margin-left: 10px;
+    color: brown;
+}
+
+.bi-arrow-return-left{
+    color: white;
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: red;
+}
+
+#info a::after{
+    content: "\F131";
+    font-family: "bootstrap-icons";
+    margin-left: 20px;
+}
+
+/*---------верстка ФОРМ----------*/
+
+.form-reg{
+    width: 250px;
+    margin: 20px auto;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+input{
+    background-color: aquamarine;
+    border: #8642da 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+
+input[type=submit]{
+    background-color: darkblue;
+    color: aqua;
+    padding: 10px;
+}
+
+input[type=submit]:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+input[type=checkbox],
+input[type=radio]{
+    accent-color: red;
+}
+
+#about p::first-line{
+    letter-spacing: 10pt;
+    background-color: #8642da;
+}
+
+#about p{
+    background-color: #8642da;
+}
+
+#andothers p::first-line{
+    letter-spacing: 10pt;
+}
+
+#andothers p:lang(ru){
+    color: black;
+}
+
+p:lang(en){
+    color: chartreuse;
+    font-size: 50px;
+}
+
+.John + p{
+    margin-top: 50px;
+}
